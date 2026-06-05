@@ -1,7 +1,7 @@
 # Zona de conflito intencional: ambos os devs modificarão format_task e filter_tasks
 
 def format_task(task):
-    status = "[OK]" if task["done"] else "[PEND]"
+    status = "[DONE]" if task["done"] else "[TODO]"
     return f"{status} [P{task['priority']}] ID:{task['id']} - {task['title']}"
 
 def filter_tasks(tasks, show_done=True):
