@@ -2,7 +2,7 @@
 
 def format_task(task):
     status = "[DONE]" if task["done"] else "[TODO]"
-    return f"{status} [P{task['priority']}] ID:{task['id']} - {task['title']}"
+    return f"{status} {task['title']} (P{task['priority']}) ID:{task['id']}"
 
 def filter_tasks(tasks, show_done=True):
     if show_done:
