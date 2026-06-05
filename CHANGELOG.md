@@ -1,14 +1,15 @@
-# Changelog
+# CHANGELOG
 
-Todas as mudanças notáveis deste projeto serão documentadas aqui.
+## Added
+- Melhoria na exibição das tarefas.
+- Implementação de filtro adicional para tarefas.
+- Criação do fluxo de release e hotfix.
 
-O formato segue [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
+## Changed
+- Refatoração da função de formatação de tarefas.
+- Ajustes na exibição de status e prioridade.
 
----
-
-## [Unreleased]
-
-## [1.0.0] - YYYY-MM-DD
-### Added
-### Changed
-### Fixed
+## Fixed
+- Correção de conflitos durante integração das branches.
+- Correção do bug proposital na função `filter_tasks`.
+- Sincronização do hotfix entre `main` e `develop`.
